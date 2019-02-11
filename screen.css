@@ -54,9 +54,8 @@ input {
 }
 label {
   flex: 1 0 auto;
-  width: 33.333333333%
+  width: 33.333333333%;
   margin-top: auto;
-  margin-width: auto;
   margin-top: 5px;
   margin-bottom: 5px;
   color: white;
@@ -85,7 +84,7 @@ body.g:active::after {
   display: none;
 }
 
-p {
+h3 {
   color: white;
   margin-left: auto;
   margin-right: auto;
