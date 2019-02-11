@@ -18,9 +18,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
-  padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
+
+header {
+  text-align: center; 
+  align-content: center;
+  width: 110%;
+  background-color: #FE4B74;
+}
+
 h1 {
+  text-align: center;
+  width: 100%;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
   color: white;
