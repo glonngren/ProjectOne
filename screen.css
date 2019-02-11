@@ -28,11 +28,16 @@ header {
 }
 
 h1 {
-  text-align: center;
   width: 100%;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
   color: white;
+}
+
+section {
+  color: white;
+  width: 80%;
+  padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 
 /* Forms */
