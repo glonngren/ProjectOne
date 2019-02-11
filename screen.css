@@ -21,10 +21,9 @@ html {
 }
 
 header {
-  text-align: center; 
-  align-content: center;
   width: 110%;
-  background-color: #FE4B74;
+  background-color: #686868;
+  padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 
 h1 {
