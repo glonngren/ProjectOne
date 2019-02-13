@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:600,700,800&subset=latin-ext');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -29,6 +30,7 @@ h1 {
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
   color: white;
+  font-family: 'Encode Sans', sans-serif;
 }
 
 section {
@@ -54,7 +56,7 @@ input {
 }
 label {
   flex: 1 0 auto;
-  width: 33.333333333%;
+  width: 33.333333333%
   margin-top: auto;
   margin-top: 5px;
   margin-bottom: 5px;
