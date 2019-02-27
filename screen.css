@@ -73,13 +73,13 @@ body.g::after {
   /*background: url('data:image/svg+xml;utf8,<svg height="22" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;*/
   content: "";
   display: block;
-  pointer-events: none;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 9999;
   position: absolute;
+  align-content: flex-start
 }
 
 body.g:active::after {
