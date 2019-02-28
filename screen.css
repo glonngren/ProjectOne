@@ -52,18 +52,14 @@ input {
 }
 input[type="email"] {
   margin-bottom: 11px;
-  background-color: rgba(67,176,183,1.0);
-}
-input[type="email"]:focus {
   background-color: #EEE;
 }
+
 input[type="name"] {
   margin-bottom: 11px;
-  background-color: rgba(67,176,183,1.0);
-}
-input[type="name"]:focus {
   background-color: #EEE;
 }
+
 input[type="submit"] {
   background-color: rgba(67,176,183,8.0);
 }
