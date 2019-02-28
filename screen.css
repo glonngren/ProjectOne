@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans:600,700,800&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display')
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -21,20 +22,24 @@ html {
   background: #034f84;
   color: #EEE;
   font-family: 'Encode Sans', sans-serif;
-  font-size: 1.125; /* 18 / 16 = 1.125 */
+  font-size: 1em; /* 18 / 16 = 1.125 */
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
+
+header {
+	padding-bottom: 1em;
+}
+
 h1 {
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
 }
 p {
-  padding-bottom: 5px;
+  padding-bottom: 2em;
 }
 
 form {
-  max-width: 15;
   padding: 1em;
   background: #c94c4c;
 }
@@ -73,12 +78,6 @@ input[type="submit"]:disabled {
 .description {
 	font-family: 'Playfair Display', serif;
 }
-/* Diagnostic CSS */
-/**
-* A quick baseline grid overlay using css+svg.
-* Inspired by [Basehold.it](https://basehold.it/).
-* @author leshido
-*/
 
 body.g {
   position: relative;
