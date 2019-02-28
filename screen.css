@@ -21,7 +21,7 @@ html {
   background: #222;
   color: #EEE;
   font-family: 'Encode Sans', sans-serif;
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  font-size: 1.125; /* 18 / 16 = 1.125 */
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
@@ -30,7 +30,7 @@ h1 {
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
 }
 p {
-  padding-bottom: 22px;
+  padding-bottom: 5px;
 }
 
 /* Forms */
@@ -41,9 +41,7 @@ label {
 }
 input {
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
-  flex: 3 0 auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 0;
   font-size: inherit;
   line-height: inherit;
   border: 0;
@@ -51,11 +49,6 @@ input {
   width: 100%;
 }
 input[type="email"] {
-  margin-bottom: 11px;
-  background-color: #EEE;
-}
-
-input[type="name"] {
   margin-bottom: 11px;
   background-color: #EEE;
 }
