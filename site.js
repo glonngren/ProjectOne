@@ -12,13 +12,9 @@
     return validate(email,/^[^@\s]+@[^@\s]+$/g);
   }
   
-  var email_input = document.querySelector('#email');
-  email_input.addEventListener('focus', function(){
-    console.log('OMG somebody focused on the telephone input');
-  });
-  email_input.addEventListener('blur', function(){
-    console.log('OMG somebody navigated away from the telephone input');
-  });
+  function validate_name(value) { 
+    return validate(name,/^[A-Za-z]+$/);
+  }
 
   document.addEventListener('DOMContentLoaded',function(){
     // Select the necessary elements from the DOM
@@ -31,7 +27,7 @@
     // Listen for keyup event ANYWHERE in the form
     signup_form.addEventListener('keyup',function(){
       // Check the likely validity of phone AND email
-      if (validate_email(email_input.value)) {
+      if (validate_email(email_input.value) & validate_name(signup_submit.value)) {
         // If valid, remove the disabled attribute on the submit button
         signup_submit.removeAttribute('disabled');
       } else {
